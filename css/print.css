@@ -1,0 +1,13 @@
+body {
+  /*background-color: #FFFFFF;*/
+  /*background: none;*/
+}
+
+.page {
+  background-color: #FFFFFF;
+  margin: 0px;
+  position: relative;
+  box-shadow: none;
+  border-radius: 0px; 
+  /*height: 29.68px;*/
+}
