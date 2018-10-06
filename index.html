@@ -3,8 +3,8 @@
 <head lang="FR-fr">
   <title></title>
   <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="stylesheet" type="text/css" href="print.css" media="print">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/print.css" media="print">
 </head>
 <body>
 <div class="page">
@@ -12,191 +12,278 @@
   <header class="heading">
     <div class="name">
       <h1>Anthony Lozano</h1>
-      <small>Étudiant en licence informatique passioné de voile</small>
+      <small>Développeur web full stack - Passionné de voile</small>
     </div>
     <div>
       <article class="bio">
-        <p>22 ans – 13/03/1994</p>
-        <p>Permis de conduire (A et B)</p>
-        <p>Véhicules personnels</p>
+        <p>24 ans – 13/03/1994</p>
+        <p>Permis de conduire (A et B) &bull; Véhicules personnels</p>
+        <p class="pointless">Permis bateau de plaisance option côtière</p>
       </article><!-- /.bio -->
     </div>
-    <img id="photo" src="anthony.jpg" alt="Photo">
+    <img id="photo" src="img/anthony.jpg" alt="Portrait">
   </header>
 
   <main>
+
     <article class="study">
       <h2>Formations</h2>
-      <div>
-        <p class="main">Licence 3 Informatique</p>
-        <p class="place">Université de La Rochelle (17)</p>
-        <p class="dates">Septembre 2016 - Juin 2017</p>
+      <div class="item">
+        <p class="title">CQP AMV (Voilier Habitable)</p>
+        <p class="detail place">SUAPSE/ERH, La Rochelle (17)</p>
+        <p class="detail date">Septembre 2017 - Juin 2018 (en cours)</p>
       </div>
-      <div>
-        <p class="main">Formation monitorat FFV (Voilier habitable)</p>
-        <p class="place">SUAPSE/SRR, La Rochelle (17)</p>
-        <p class="dates">Septembre 2016 - Juin 2017 </p>
+      <div class="item">
+        <p class="title">Licence 3 Informatique (non validée)</p>
+        <p class="detail">Université de La Rochelle (17)</p>
+        <p class="detail">Septembre 2016 - Juin 2017</p>
       </div>
-      <div>
-        <p class="main">BTS SIO (Services informatiques aux Organisations)</p>
-        <p class="place">Lycée Merleau-Ponty, Rochefort (17)</p>
-        <p class="dates">Septembre 2013 - Juin 2015</p>
+      <div class="item">
+        <p class="title">BTS SIO (Services informatiques aux Organisations)</p>
+        <p class="detail">Lycée Merleau-Ponty, Rochefort (17)</p>
+        <p class="detail">Septembre 2013 - Juin 2015</p>
       </div>
-      <div>
-        <p class="main">DUT Informatique</p>
-        <p class="place">IUT de la Rochelle (17)</p>
-        <p class="dates">Septembre 2012 - Juin 2013</p>
+      <div class="item pointless">
+        <p class="title">DUT Informatique</p>
+        <p class="detail">IUT de la Rochelle (17)</p>
+        <p class="detail">Septembre 2012 - Juin 2013</p>
       </div>
-      <div>
-        <p class="main">Baccalauréat technologique (STI)</p>
-        <p class="place">Lycée B. Palissy, Saintes (17)</p>
-        <p class="dates">Septembre 2010 - Juin 2012</p>
+      <div class="item">
+        <p class="title">Baccalauréat technologique (STI)</p>
+        <p class="detail">Lycée B. Palissy, Saintes (17)</p>
+        <p class="detail">Septembre 2010 - Juin 2012</p>
       </div>
     </article><!-- /.study -->
 
+
+    <article class="experiences pointless">
+      <h2>Expériences nautiques</h2>
+
+      <div class="item">
+        <p class="title">Remontée de la Seudre</p>
+        <p class="detail">Jeanneau Sun 2000 "Helios"</p>
+        <p class="detail">9 septembre 2018</p>
+      </div>
+
+      <div class="item">
+        <p class="title">Navigations pour le SUAPSE</p>
+        <p class="goal">&#9656;Chef de bord</p>
+        <p class="detail">Archambault Surprise &amp; Beneteau First Class 8</p>
+        <p class="detail">1 à 4 séances par semaine avec des étudiants (18-25 ans)</p>
+        <p class="detail">Baie de La Rochelle (17)</p>
+        <p class="detail">Septembre à Juin 2017 &bull; 2018</p>
+      </div>
+
+      <div class="item">
+        <p class="title">Tour de Ré</p>
+        <p class="goal">&#9656;Barreur</p>
+        <p class="detail">Jeanneau Love-Love "Yakito"</p>
+        <p class="detail">16 juin 2018</p>
+      </div>
+
+      <div class="item">
+        <p class="title">Croisière de fin d'année du SUAPSE</p>
+        <p class="goal">&#9656;Chef de bord</p>
+        <p class="detail">Croisière dans le pertuis d'Antioche (La Rochelle, Île d'Oléron, Île d'Aix, Île de Ré, Rochefort)</p>
+        <p class="detail">Archambault Suprise "Erato"</p>
+        <P class="detail">11 au 15 juin 2018</P>
+      </div>
+
+      <div class="item">
+        <p class="title">Open de France J/80</p>
+        <p class="goal">&#9656;Numéro 1</p>
+        <p class="detail">J/Boats J/80</p>
+        <p class="detail">La Rochelle (17)</p>
+        <p class="detail">1er au 3 juin 2018</p>
+      </div>
+
+      <div class="item">
+        <p class="title">Weekend en Gironde</p>
+        <p class="detail">Croisière de 2 jours entre amis</p>
+        <div class="detail">Randonneur "Pétrel"</div>
+        <p class="detail">Estuaire de la Gironde (33)</p>
+        <p class="detail">20 au 21 mai 2018</p>
+      </div>
+
+      <div class="item">
+        <p class="title">Selective du championnat de France
+universitaire de Match Racing</p>
+        <p class="goal">&#9656;Numéro 1</p>
+        <div class="detail">Archambault Surprise</div>
+        <p class="detail">24 au 25 mars 2018</p>
+        <p class="detail">La Rochelle (17)</p>
+      </div>
+      
+    </article><!-- /.experiences -->
+
     <article class="experiences">
       <h2>Expériences</h2>
-      <div>
-        <p class="main">Stage pour l'atelier du lycée Merleau-Ponty</p>
-        <p class="goal">&#9656;Developpement d'une application web de gestion de tickets</p>
-        <p class="place">Lycée M. Merleau-Ponty - Rochefort (17)</p>
-        <p class="dates">Mai Juin 2014</p>
+      <div class="item">
+        <p class="title">Animateur Voile</p>
+        <p class="goal">&#9656;Encadrement d'enfants (10 à 16 ans) sur divers supports</p>
+        <p class="detail">Caravelle, Dériveur Twin 370, Planche à Voile, Catamaran NC14, SUP</p>
+        <p class="detail">Centre vacance SNCF - Lanvéoc (34)</p>
+        <p class="detail">Aout 2018</p>
       </div>
-      <div>
-        <p class="main">Stage en agence de communication</p>
+      <div class="item">
+        <p class="title">Stage pour l'atelier du lycée Merleau-Ponty</p>
+        <p class="goal">&#9656;Développement d'une application web de gestion de tickets</p>
+        <p class="detail">Stack LAMP</p>
+        <p class="detail">Lycée M. Merleau-Ponty - Rochefort (17)</p>
+        <p class="detail">Mai Juin 2014</p>
+      </div>
+      <div  class="item">
+        <p class="title">Stage en agence de communication</p>
         <p class="goal">&#9656;Création d'une application web de présentation de l'agence</p>
-        <p class="place">Sacrée Com - Tonnay-Charente (17)</p>
-        <p class="dates">Mai Juin 2013</p>
+        <p class="detail">Frontend (HTML/CSS/JS)</p>
+        <p class="detail">Sacrée Com - Tonnay-Charente (17)</p>
+        <p class="detail">Mai Juin 2013</p>
       </div>
-      <div>
-        <p class="main">Commis de cuisine</p>
-        <p class="goal"></p>
-        <p class="place">Restaurant La Pigouille - Saint-Pierre d'Oléron, La Cotinière (17)</p>
-        <p class="dates">Juillet Août 2012, 2013, 2014, 2015</p>
+      <div  class="item">
+        <p class="title">Commis de cuisine</p>
+        <p class="detail">Restaurant La Pigouille - Saint-Pierre d'Oléron, La Cotinière (17)</p>
+        <p class="detail">Juillet Août 2012 &bull; 2013 &bull; 2014 &bull; 2015</p>
       </div>
-      <!--<div>
-        <p class="main">Employé d'hôtel</p>
-        <p class="place">Hôtel l'Océane - Saint-Pierre d'Oléron, La Cotinière (17)</p>
-        <p class="dates">Juillet Août 2010, 2011</p>
-      </div> -->
+      <div  class="item pointless">
+        <p class="title">Employé d'hôtel</p>
+        <p class="detail">Hôtel l'Océane - Saint-Pierre d'Oléron, La Cotinière (17)</p>
+        <p class="detail">Juillet Août 2010 &bull ;b2011</p>
+      </div>
     </article><!-- /.experiences -->
 
     <article class="skills">
       <h2>Compétences Informatiques</h2>
-      <div>
-        <p class="main">Programmation</p>
-        <p class="skill">
+      <div class="item">
+        <p class="title">Programmation</p>
+        <p class="detail">
           Java
         </p>
-        <p class="skill">
+        <p class="detail">
           Android
         </p>
-        <p class="skill">
+        <p class="detail">
           C/C++
         </p>
       </div>
-      <div>
-        <p class="main">
+      <div class="item">
+        <p class="title">
           Modélisation
         </p>
-        <p class="skill">
+        <p class="detail">
           UML
         </p>
-        <p class="skill">
+        <p class="detail">
           Merise
         </p>
       </div>
-            <div>
-        <p class="main">Base de données</p>
-        <p class="skill">
+      <div class="item">
+        <p class="title">Base de données</p>
+        <p class="detail">
           NoSQL <span class="details">MongoDB, Neo4j</span>
         </p>
-        <p class="skill">
-          SQL <span class="details">PostgreSQL, MySQL</span>
+        <p class="detail">
+          SQL <span class="details">PostgreSQL, MySQL, MS SQL Server</span>
         </p>
-        <p class="skill">Fichiers <span class="details">XML, JSON</span></p>
+        <p class="detail">Fichiers <span class="details">XML, JSON, YAML</span></p>
       </div>
-      <div>
-        <p class="main">Web</p>
-        <p class="skill">
-          PHP <span class="details">(Orienté Objet)</span>
+      <div class="item">
+        <p class="title">Web</p>
+        <p class="detail">
+          Stack MEAN
         </p>
-        <p class="skill">
-          Framework Laravel <span class="details">Illuminate (5.3)</span>
+        <p class="detail">
+          Stack LAMP
         </p>
-        <p class="skill">
-          HTML5/CSS3
+        <p class="detail">
+          JavaScript <span class="details">JQuery</span>
         </p>
-        <p class="skill">
-          JavaScript/JQuery
-        </p>
-        <p class="skill">
+        <p class="detail">
           Wordpress
         </p>
       </div>
 
-      <div>
-        <p class="main">
+      <div class="item">
+        <p class="title">
           Outils divers
         </p>
-        <p class="skill">Ligne de commande <span class="details">(Powershell, Bash)</span></p>
-        <p class="skill">Tests unitaires</p>
-        <p class="skill">Composer</p>
-        <p class="skill">Git</p>
+        <p class="detail">Ligne de commande <span class="details">CMD, Powershell, Bash</span></p>
+        <p class="detail">Tests unitaires <span class="details">JUnit, PHPUnit</span></p>
+        <p class="detail">Gestion de dépendances <span class="details">Composer, NPM, Bower</span></p>
+        <p class="detail">Versionning <span class="details">Git, Github, Gitlab</span></p>
       </div>
-      <div>
-        <p class="main">Systèmes</p>
-        <p class="skill">
+      <div class="item">
+        <p class="title">Systèmes</p>
+        <p class="detail">
           Virtualisation <span class="details">(Virtualbox)</span>
         </p>
-        <p class="skill">
-          Installation système d'exploitation <span class="details">(Linux, Windows, serveur LAMP)</span>
+        <p class="detail">
+          Système d'exploitation <span class="details">Linux, Windows, serveur LAMP</span>
         </p>
       </div>
     </article><!-- /.it -->
-
-    <article class="hobbies">
-      <h2>Centres d'intérêts</h2>
-      <div>
-        <p class="main">Sport de Voiles (Planche à voile, voilier habitable)</p>
-        <p class="main">Voyages (Tourisme)</p>
-        <p class="main">Musique (Hard Rock, Stoner et Metal)</p>
-      </div>
-    </article><!-- /.hobbies -->
 
   </main>
 
   <aside class="side">
     <article class="contact"><!--/.contact-->
       <h2>Contact</h2>
-      <div>
-        <p class="main"><img src="phone.png" alt="phone"><span>Téléphone</span></p>
-        <p class="goal">+336 46 49 02 41</p>
+      <div class="item">
+        <p class="title"><img src="img/smartphone.png" alt="Téléphone"><span>Téléphone</span></p>
+        <p class="detail">+336 46 49 02 41</p>
       </div>
-      <div>
-        <p class="main"><img src="mail.png" alt="mail"><span>Email</span></p>
-        <p class="goal">anthony.lozano@anthozano.fr</p>
+      <div class="item">
+        <p class="title"><img src="img/mail.png" alt="Email"><span>Email</span></p>
+        <p class="detail">anthonisu@gmail.com</p>
+        <p class="detail">anthony.lozano@anthozano.com</p>
       </div>
-      <!--<div>
-        <p class="main">Blog</p>
-        <p class="goal">http://anthozano.fr</p>
-      </div>-->
-      <!--<div>
-        <p class="main">Github</p>
-        <p class="goal">http://github.com/anthozano</p> 
-      </div>-->
+      <div class="item">
+        <p class="title"><img src="img/web.png" alt="Blog">Blog</p>
+        <p class="detail"><a href="http://anthozano.fr">http://anthozano.fr</a></p>
+      </div>
+      <div class="item">
+        <p class="title"><img src="img/star_full.png" alt="Github">Github</p>
+        <p class="detail"><a href="http://github.com/anthozano">http://github.com/anthozano</a></p> 
+      </div>
     </article><!--/.contact-->
     <article class="lang">
       <h2>Langues</h2>
-      <div>
-        <p class="main">Anglais</p>
-        <p class="goal">Courant (Scolaire B2, voyages, documentations,  ...)</p>
+      <div class="item">
+        <p class="title">Anglais</p>
+        <p class="detail">Courant (Scolaire B2, voyages, documentations,  ...)</p>
       </div>
-      <div>
-        <p class="main">Allemand</p>
-        <p class="goal">Notions</p>
+      <div class="item">
+        <p class="title">Allemand</p>
+        <p class="detail">Notions</p>
       </div>
     </article><!--/.lang-->
+    <article class="hobbies">
+      <h2>Centres d'intérêts</h2>
+      <div class="item">
+        <p class="title">Nautisme</p>
+        <p class="detail">Sports de voile</p>
+        <p class="detail">Voilier, planche à voile</p>
+        <p class="detail">Matelotage</p>
+        <p class="detail pointless">Spinnaker</p>
+      </div>
+      <div class="item">
+        <p class="title">Code</p>
+        <p class="detail">Développement jeux HTML5/Canvas</p>
+      </div>
+      <div class="item">
+        <p class="title">Scoutisme</p>
+        <p class="detail">Bénévolat &amp; coups de mains aux EEUDF</p>
+      </div>
+      <div class="item">
+        <p class="title">Voyages</p>
+        <p class="detail">Tourisme</p>
+      </div>
+      <div class="item">
+        <p class="title">Musique</p>
+        <p class="detail">Hard Rock, Stoner rock</p>
+        <p class="detail">Evénements musicaux</p>
+      </div>
+      <div class="item">
+    </article><!-- /.hobbies -->
   </aside><!--/.side-->
 
 </div><!--/.page-->
